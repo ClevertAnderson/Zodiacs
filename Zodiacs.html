@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chinese Zodiac</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+  
+
+  <section class="sec-container">
+    <div class="grid cz-inputs">
+      <h2>Details:</h2>
+      <label for="name">Name</label> <br>
+      <input type="text" id="name" required> <br>
+      <label for="birthYear">Year of Birth</label> <br>
+      <input type="number" id="birthYear" max="2023" min="1940" required> <br>
+      <button id="btnSubmit">Submit</button> <br>
+    </div>
+    <div class="grid cz-content">
+      <h2>Chinese Zodiac</h2>
+      <img src="zodiacs.jpg" alt="Image of symbol lies here." id="img">
+      <h1 id="cz-title">12 Zodiac Signs</h1>
+      <p id="cz-description">A sign of the zodiac refers to one of 12 specific constellations of the zodiac that the sun passes through.</p>
+      <p id="source"></p>
+    </div>
+  </section>
+  <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
